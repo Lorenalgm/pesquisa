@@ -1,0 +1,11 @@
+/* Calendario */
+.bx-pager{text-align: center;height: 35px;}
+.bx-pager-item{float: left;width:35px;margin: 0 2%;}
+.bx-controls{position: absolute;top: 0;height: 30px;width: 100%; text-align: center;margin: 0 auto;line-height: 30px;}
+.bx-controls-direction{position: relative;bottom: 6px;}
+.bx-controls-direction .bx-prev{float: left;margin:0 0 0 15px;}
+.bx-controls-direction .bx-next{float: right;margin:0 15px 0 0;}
+.bx-wrapper .bx-next{right: 10px;background: transparent url("../images/chevron_next.png") no-repeat scroll 0% 0%;}
+.bx-wrapper .bx-prev{left: 10px;background: transparent url("../images/chevron_prev.png") no-repeat scroll 0% 0%;}
+.bx-wrapper .bx-controls-direction a{top: 38px;margin-top: -16px;height: 16px;text-indent: -9999px;z-index: 9999;position: absolute;outline: 0px none;width: 16px;}
+.bx-pager-link {color: #fff;}
